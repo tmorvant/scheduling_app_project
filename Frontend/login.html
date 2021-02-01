@@ -1,0 +1,47 @@
+<html>
+
+<head>
+	<script src="./login.js"></script>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<title>
+	Help Me Planner Login
+</title>
+
+</head>
+
+<body>
+<br>
+<br>
+<h1>
+Help Me Planner Login
+</h1>
+<br>
+
+<form id="loginform" action="">
+	<fieldset>
+		<legend>Login Credentials</legend>
+		
+		<p id="Username">
+			<label for="username">Username</label>
+			<br>
+			<input id="username" name="username" type="text" required />
+		</p>
+		<p id="Password">
+			<label for="password">Password</label>
+			<br>
+			<input id="password" name="password" type="password" required />
+			<label id="passMessage"></label>
+		</p>
+		
+		<p id="passMessage" style="color:red">
+		</p>
+		<div class="buttonHolder">
+			<input type="button" id="login" name="login" value="Login" onclick="validate()" />
+		</div>
+	</fieldset>
+</form>
+<p>If you do not have an account, click <a href='account.html'>here</a> to create one</p>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<html>
+
+<head>
+<script src="./account.js"></script>
+<link rel="stylesheet" type="text/css" href="account.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<title>
+	Create an Account
+</title>
+</head>
+
+<body>
+<br>
+<br>
+<h1>
+Create a Help Me Planner Account
+</h1>
+
+<form id="accountform" action="">
+	<fieldset>
+		<legend>Account Details</legend>
+		<p id="Username">
+			<label for="username">Username</label>
+			<br>
+			<input id="username" name="username" type="text" required />
+		</p>
+		<p id="warning1" style="color:red;">
+		</p>
+		<p id="Password">
+			<label for="password">Password</label>
+			<br>
+			<input id="password" name="password" type="password" required />
+		</p>
+		<p id="Password2">
+			<label for="password2">Confirm Password</label>
+			<br>
+			<input id="password2" name="password2" type="password" required />
+		</p>
+		<p id="warning" style="color:red;">
+		</p>
+		<div class="buttonHolder">
+			<input type="submit" id="create" name="create" value="Create Account" onclick="createAccount()" />
+		</div>
+	</fieldset>
+</form>
+
+</body>
+
+</html>

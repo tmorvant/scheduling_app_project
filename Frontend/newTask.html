@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="newTask.css">
+	<script type="text/javascript" src="newTask.js"></script> 
+
+<title>
+	New/Edit Task
+</title>	
+</head>
+<body onload="prep()">
+	<h1>Create New/Edit Task</h1>
+	<fieldset id="newTask">
+		<h3>Task Name</h3>
+		<p id="taskName1"><input type="text" id="taskName"></p>
+		<h3>Type</h3>
+		<p id="type1">
+			<select id="type">
+				<option value="select">Select</option>
+				<option value="appointment">Appointment</option>
+				<option value="assignment">Assignment</option>
+				<option value="meeting">Meeting</option>
+			</select>
+		</p>
+		<h3>Due Date</h3>
+		<p id="dueDate1"><input type="datetime-local" id="dueDate"></p>
+		<h3>Description</h3>
+		<p id="description1"><input type="text" id="description" size="50"></p>
+		<h3>Priority(0-9)</h3>
+		<p id="priority1"><input type="number" id="priority" min="0" max="9"></p>
+		<h3>Difficulty(0-9)</h3>
+		<p id="difficulty1"><input type="number" id="difficulty" min="0" max="9"></p>
+		<div class="buttonHolder">
+			<button id="submit" onclick="validate()">Submit</button>
+		</div>
+	</fieldset>
+</body>
+</html>

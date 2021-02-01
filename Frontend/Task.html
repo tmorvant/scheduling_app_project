@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Task.css">
+	<script type="text/javascript" src="Task.js"></script>  
+	
+<title>
+	Your Task
+</title>
+</head>
+<body id="body" onload="load()">
+	<h1>Task Details</h1>
+	<fieldset id="newTask">
+		<table class="task">
+			<tr>
+				<td id="taskName" class="taskName" colspan="2">Assignment1</td>
+			</tr>
+			<tr>
+				<td id="type" class="type">Assignment</td>
+				<td id="dueDate">10/6/2019 11:59pm</td>
+			</tr>
+			<tr>
+				<td id="description" colspan="2" align="center">Program TicTacToe in JavaFX</td>
+			</tr>
+			<tr>
+				<td id="priority">Priority: 6</td>
+				<td id="difficulty">Difficulty: 7</td>
+			</tr>
+		</table>
+		<br>
+		<div class="buttonHolder">
+			<button class="delete" id="delete" onclick="deleteTask()">Delete Task</button>
+			<button id="return" onclick="javascript:history.back()">Return</button>
+			<button class="edit" id="edit" onclick="editTask()">Edit</button>
+		</div>
+	</fieldset>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+	background-color:#97fcf8;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+}
+
+form {
+	font-family: 'Roboto', sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:25%;
+	padding-right:25%;
+	border-radius:20px;
+	border-width:0px;
+	
+}
+
+fieldset {
+	border-radius:30px;
+}
+
+p {
+	text-align:center;
+}
+
+input {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+input[type=text] {
+	border:1px solid gray;
+	padding: 5px 5px;
+	border-radius:3
+}
+
+input[type=password] {
+	border:1px solid gray;
+	padding: 5px 5px;
+	border-radius:3px;
+}
+
+input[type=submit] {
+	background-color: #84f0c8;
+	border: 0;
+	font-weight: 600;
+	line-height: 2;
+	margin-top: 1.5rem;
+	width: 25%;
+	border-radius:12px;
+	border: 2px solid #555555;
+	cursor:pointer;
+}
+
+
+input[type=submit]:hover {
+	background-color:#39bf7c;
+	transition: all 0.5s ease;
+}
+
+legend {
+	text-align:center;
+	font-size:25px;
+	
+}
+
+.buttonHolder{
+	text-align:center;
+  
+}

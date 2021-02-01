@@ -1,0 +1,86 @@
+body {
+	background-color:#97fcf8;
+}
+
+fieldset {
+	border-radius:30px;
+}
+
+h1,h3 {
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+}
+
+
+
+table {
+	font-family: 'Roboto', sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+tr {
+	text-align:center;
+}
+
+.buttonHolder{
+	text-align:center;
+  
+}
+
+button {
+	text-transform:uppercase;
+	background-color: #84f0c8;
+	border: 0;
+	font-weight: 600;
+	line-height: 2;
+	margin-top: 1.5rem;
+	width: 15%;
+	border-radius:12px;
+	border: 2px solid #555555;
+	cursor:pointer;
+}
+
+
+button:hover {
+	background-color:#39bf7c;
+	transition: all 0.5s ease;
+}
+
+.delete {
+	text-transform:uppercase;
+	background-color: #e65c63;
+	border: 0;
+	font-weight: 600;
+	line-height: 2;
+	margin-top: 1.5rem;
+	width: 15%;
+	border-radius:12px;
+	border: 2px solid #555555;
+	cursor:pointer;
+}
+
+
+.delete:hover {
+	background-color:#e32d37;
+	transition: all 0.5s ease;
+}
+
+.edit {
+	text-transform:uppercase;
+	background-color: #308ad9;
+	border: 0;
+	font-weight: 600;
+	line-height: 2;
+	margin-top: 1.5rem;
+	width: 15%;
+	border-radius:12px;
+	border: 2px solid #555555;
+	cursor:pointer;
+}
+
+
+.edit:hover {
+	background-color:#165994;
+	transition: all 0.5s ease;
+}
